@@ -87,6 +87,7 @@ main {
     background-color: lightblue;
     /* Make main element take any surplus space to push footer down. This property sets flex grow,shrink and basis*/
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer*/
