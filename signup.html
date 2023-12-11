@@ -14,13 +14,13 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="stylesheet" href="assets/css/style.css" >
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html"> 
+        <a href="index.html">
             <h1 id="logo">Love Running</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -35,7 +35,30 @@
     </header>
     <!-- Main Content-->
     <main>
-        Main content
+        <!-- Signup-form section -->
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> LET'S GET YOU SIGNED UP</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required> <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required><br>
+                <label for="email"> Email</label>
+                <input type="email" name="email" id="email" class="text-input" required><br>
+                <div class="radio-buttons">
+                    <div> <label for="running_preferance">Road</label>
+                        <input type="radio" name="running_preferance" value="road" id="road" required>
+                    </div>
+                    <div><label for="running_preferance">Trail</label>
+                        <input type="radio" name="running_preferance" value="trail" id="trail" required>
+                    </div>
+                    <div> <label for="running_preferance">Both</label>
+                        <input type="radio" name="running_preferance" value="both" id="both" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
     </main>
     <!-- Footer -->
     <footer>
